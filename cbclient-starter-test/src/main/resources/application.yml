@@ -1,0 +1,7 @@
+server:
+  port: 8001
+cb:
+  address: 127.0.0.1
+  port: 5473
+  password: 123456
+  index: 0
