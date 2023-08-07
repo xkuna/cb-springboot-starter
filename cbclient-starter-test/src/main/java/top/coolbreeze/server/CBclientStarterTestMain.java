@@ -1,4 +1,4 @@
-package top.coolbreeze;
+package top.coolbreeze.server;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +12,7 @@ import top.coolbreeze4j.cbclient.starter.CBclient;
  * @author CoolBreeze
  * @date 2023/7/14 10:26.
  */
-@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
+@SpringBootApplication(exclude = DataSourceAutoConfiguration.class,scanBasePackages = {"top.coolbreeze.server"})
 public class CBclientStarterTestMain {
     @Autowired
     CBclient cbclient;

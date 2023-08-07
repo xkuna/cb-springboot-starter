@@ -1,4 +1,4 @@
-package top.coolbreeze.service;
+package top.coolbreeze.server.service;
 
 import org.springframework.stereotype.Service;
 import top.coolbreeze4j.cbclient.starter.ICBclientService;
